@@ -8,6 +8,14 @@ I developed my personal portfolio using Three.js to showcase my projects and ski
 
 ---
 
+## The iFrame that I used
+
+The github repository you are currently seeing is just the ThreeJs that I use for my personnal website, you can see the iFrame at : [https://github.com/MeymounB/Portfolio](https://github.com/MeymounB/Portfolio)
+
+Or check the deployed version : [https://meymounb.github.io/Portfolio/](https://meymounb.github.io/Portfolio/)
+
+![Capture d'écran du site web](/public/iframe_screen.png)
+
 <a href="https://www.w3schools.com/html/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" style="width: 40px; height: 40px;" alt="html5"></a>
 <a href="https://www.w3schools.com/css/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" style="width: 40px; height: 40px;" alt="css3"></a>
 <a href="https://www.javascript.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" style="width: 40px; height: 40px;" alt="javascript"></a>
@@ -45,7 +53,3 @@ npm run build
 ```
 
 4. Upload the content of the `dist` folder to your server.
-
-## The iFrame that I used
-
-The github repository you are currently seeing is just the ThreeJs that I use for my personnal website, you can see the iFrame at : [https://github.com/MeymounB/Portfolio](https://github.com/MeymounB/Portfolio)
