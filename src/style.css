@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+html,
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: ivory;
+}
+
+canvas {
+  touch-action: none;
+}
+
+.htmlScreen iframe {
+  width: 1101px;
+  height: 670px;
+  border: none;
+  background: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.yes {
+  font-family: "Caveat";
+}
+
+#mobileMessage {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  font-style: none;
+  font-weight: bold;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  #root,
+  canvas {
+    display: none;
+  }
+
+  #mobileMessage {
+    display: block;
+  }
+}
